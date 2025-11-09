@@ -1,0 +1,4 @@
+com\manel\departmentmicroservice\entities\Department.class
+com\manel\departmentmicroservice\DepartmentMicroserviceApplication.class
+com\manel\departmentmicroservice\entities\Department$DepartmentBuilder.class
+com\manel\departmentmicroservice\repos\DepartmentRepository.class
