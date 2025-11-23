@@ -1,0 +1,114 @@
+version: '3.8'
+
+services:
+  eurekaserver:
+    build: ./eurekaserver
+    container_name: eurekaserver
+    ports:
+      - "8761:8761"
+    networks:
+      - microservices-net
+    healthcheck:
+      test: "curl --fail --silent localhost:8761/actuator/health | grep UP || exit 1"
+      interval: 10s
+
+  configserver:
+    build: ./configserver
+    container_name: configserver
+    ports:
+      - "9999:9999"
+    networks:
+      - microservices-net
+    healthcheck:
+      test: "curl --fail --silent localhost:9999/actuator/health | grep UP || exit 1"
+      interval: 10s
+
+  institut-ms:
+    build: ./department-microservice
+    container_name: institut-ms
+    ports:
+      - "8083:8083"
+    networks:
+      - microservices-net
+    environment:
+      - SPRING_APPLICATION_NAME=institut
+      - SPRING_PROFILES_ACTIVE=docker
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eurekaserver:8761/eureka/
+      - SPRING_CONFIG_IMPORT=optional:configserver:http://configserver:9999/
+      - EUREKA_INSTANCE_HOSTNAME=institut-ms  # Critical: Set hostname for Eureka
+    healthcheck:
+      test: "curl --fail --silent localhost:8083/actuator/health | grep UP || exit 1"
+      interval: 10s
+    depends_on:
+      eurekaserver:
+        condition: service_healthy
+      configserver:
+        condition: service_healthy
+
+  gatewayserver:
+    build: ./gatewayserver
+    container_name: gatewayserver
+    ports:
+      - "8888:8888"
+    networks:
+      - microservices-net
+    environment:  # CORRECTED ENVIRONMENT VARIABLES
+      - SPRING_PROFILES_ACTIVE=docker
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eurekaserver:8761/eureka/
+      - SPRING_CONFIG_IMPORT=optional:configserver:http://configserver:9999/
+    healthcheck:
+      test: "curl --fail --silent localhost:8888/actuator/health | grep UP || exit 1"
+      interval: 10s
+    depends_on:
+      eurekaserver:
+        condition: service_healthy
+      configserver:
+        condition: service_healthy
+
+  institut-ms2:
+    build: ./department-microservice
+    container_name: institut-ms2
+    ports:
+      - "8094:8083"
+    networks:
+      - microservices-net
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+      - SPRING_APPLICATION_NAME=institut
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eurekaserver:8761/eureka/
+      - SPRING_CONFIG_IMPORT=optional:configserver:http://configserver:9999/
+      - EUREKA_INSTANCE_HOSTNAME=institut-ms2  # Critical: Set hostname for Eureka
+    healthcheck:
+      test: "curl --fail --silent localhost:8094/actuator/health | grep UP || exit 1"
+      interval: 10s
+    depends_on:
+      eurekaserver:
+        condition: service_healthy
+      configserver:
+        condition: service_healthy
+
+  etudiants-ms:
+    build: ./etudiant-microservice
+    container_name: etudiants-ms
+    ports:
+      - "8087:8087"
+    networks:
+      - microservices-net
+    environment:  # CORRECTED - removed double slash
+      - SPRING_PROFILES_ACTIVE=docker
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eurekaserver:8761/eureka/
+      - SPRING_CONFIG_IMPORT=optional:configserver:http://configserver:9999/
+    healthcheck:
+      test: "curl --fail --silent localhost:8087/actuator/health | grep UP || exit 1"
+      interval: 10s
+    depends_on:
+      eurekaserver:
+        condition: service_healthy
+      configserver:
+        condition: service_healthy
+      institut-ms:
+        condition: service_healthy
+
+networks:
+  microservices-net:
+    driver: bridge
