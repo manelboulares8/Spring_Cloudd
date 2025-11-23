@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="03cbf4ab-1582-4dbf-8a83-2ab8bed34ff2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/config-repo/institut.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-repo/institut.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/config-repo/etudiant-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/config-repo/etudiant-qa.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/config-repo/etudiant.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/config-repo/institut-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/config-repo/institut-qa.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/config-repo/institut.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/department-microservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/department-microservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/department-microservice/src/main/java/com/manel/departmentmicroservice/DepartmentMicroserviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/department-microservice/src/main/java/com/manel/departmentmicroservice/DepartmentMicroserviceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/department-microservice/src/main/java/com/manel/departmentmicroservice/restControllers/InstitutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/department-microservice/src/main/java/com/manel/departmentmicroservice/restControllers/InstitutController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/department-microservice/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/department-microservice/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etudiant-microservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/etudiant-microservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etudiant-microservice/src/main/java/com/manel/etudiantmicroservice/restControllers/EtudiantController.java" beforeDir="false" afterPath="$PROJECT_DIR$/etudiant-microservice/src/main/java/com/manel/etudiantmicroservice/restControllers/EtudiantController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etudiant-microservice/src/main/java/com/manel/etudiantmicroservice/service/APIClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/etudiant-microservice/src/main/java/com/manel/etudiantmicroservice/service/APIClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etudiant-microservice/src/main/java/com/manel/etudiantmicroservice/service/EtudiantServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/etudiant-microservice/src/main/java/com/manel/etudiantmicroservice/service/EtudiantServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etudiant-microservice/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/etudiant-microservice/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatewayserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatewayserver/src/main/java/com/manel/gatewayserver/GatewayserverApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/src/main/java/com/manel/gatewayserver/GatewayserverApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatewayserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../manel-spring-cloud\exportToHTML" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Dockerfile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/gatewayserver/src/main/resources/application.yml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="workOffline" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="34hnbwOJ8UQDlLHJqZyf4iskLrG" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.All in etudiant-microservice.executor": "Run",
+    "Maven.configserver [clean,package,-DskipTests].executor": "Run",
+    "Maven.department-microservice [clean,install].executor": "Run",
+    "Maven.department-microservice [clean,package...].executor": "Run",
+    "Maven.department-microservice [package].executor": "Run",
+    "Maven.etudiant-microservice [clean,package...].executor": "Run",
+    "Maven.eurekaserver [clean,package,-DskipTests].executor": "Run",
+    "Maven.gatewayserver [clean,package,-DskipTests].executor": "Run",
+    "Maven.manel-spring-cloud [clean,package...].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.ConfigserverApplication.executor": "Run",
+    "Spring Boot.DepartmentMicroserviceApplication.executor": "Run",
+    "Spring Boot.EtudiantMicroserviceApplication.executor": "Run",
+    "Spring Boot.EurekaserverApplication.executor": "Run",
+    "Spring Boot.GatewayserverApplication.executor": "Run",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/manel-spring-cloud- Copie",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Spring Cloud/IntelliJ_workspace/2025/manel-spring-cloud/src/main/java/com/manel/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
+    "settings.editor.splitter.proportion": "0.28134558",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\manel-spring-cloud-Devoir3\etudiant-microservice\src\main\java\com\manel\etudiantmicroservice" />
+      <recent name="C:\manel-spring-cloud-Devoir3\gatewayserver" />
+      <recent name="C:\Spring Cloud\IntelliJ_workspace\2025\manel-spring-cloud\configserver\config-repo" />
+      <recent name="C:\Spring Cloud\IntelliJ_workspace\2025\manel-spring-cloud\configserver\src\main\resources\config" />
+      <recent name="C:\Spring Cloud\IntelliJ_workspace\2025\manel-spring-cloud\department-microservice\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Spring Cloud\IntelliJ_workspace\2025\manel-spring-cloud" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.manel.etudiantmicroservice" />
+      <recent name="com.manel.etudiantmicroservice.dto" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+      <command value="mvn clean package -DskipTests" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="configurationStatuses">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <map>
+              <entry key="ConfigserverApplication" value="STOPPED" />
+              <entry key="DepartmentMicroserviceApplication" value="STOPPED" />
+              <entry key="EtudiantMicroserviceApplication" value="STOPPED" />
+              <entry key="EurekaserverApplication" value="STOPPED" />
+              <entry key="GatewayserverApplication" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.EtudiantMicroserviceApplication">
+    <configuration name="All in department-microservice" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="department-microservice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="SPRING_PROFILES_ACTIVE=default " />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in etudiant-microservice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="etudiant-microservice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="configserver" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.manel.configserver.ConfigserverApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DepartmentMicroserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="department-microservice" />
+      <option name="PROGRAM_PARAMETERS" value="--build.version=55 " />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.manel.departmentmicroservice.DepartmentMicroserviceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EtudiantMicroserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="etudiant-microservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.manel.etudiantmicroservice.EtudiantMicroserviceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eurekaserver" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.manel.eurekaserver.EurekaserverApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="gatewayserver" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.manel.gatewayserver.GatewayserverApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in etudiant-microservice" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26830.84" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.26830.84" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03cbf4ab-1582-4dbf-8a83-2ab8bed34ff2" name="Changes" comment="" />
+      <created>1761674747732</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761674747732</updated>
+      <workItem from="1761674750130" duration="7935000" />
+      <workItem from="1761829072494" duration="1000" />
+      <workItem from="1761846482409" duration="4918000" />
+      <workItem from="1762458062779" duration="4000" />
+      <workItem from="1762686528982" duration="12881000" />
+      <workItem from="1762706963265" duration="8000" />
+      <workItem from="1762707660956" duration="3000" />
+      <workItem from="1762709711858" duration="5000" />
+      <workItem from="1762801432434" duration="2000" />
+      <workItem from="1762858725491" duration="2000" />
+      <workItem from="1762969407401" duration="9335000" />
+      <workItem from="1763123425134" duration="2000" />
+      <workItem from="1763124243139" duration="1000" />
+      <workItem from="1763365782162" duration="3038000" />
+      <workItem from="1763369076592" duration="378000" />
+      <workItem from="1763488205733" duration="1085000" />
+      <workItem from="1763494870659" duration="6000" />
+      <workItem from="1763496200893" duration="5000" />
+      <workItem from="1763496280965" duration="450000" />
+      <workItem from="1763550020661" duration="207000" />
+      <workItem from="1763554200717" duration="3028000" />
+      <workItem from="1763639010045" duration="93000" />
+      <workItem from="1763639476695" duration="414000" />
+      <workItem from="1763664368483" duration="585000" />
+      <workItem from="1763671064026" duration="5000" />
+      <workItem from="1763715180659" duration="3000" />
+      <workItem from="1763750341034" duration="490000" />
+      <workItem from="1763755739157" duration="594000" />
+      <workItem from="1763818341546" duration="5000" />
+      <workItem from="1763838745311" duration="6672000" />
+      <workItem from="1763886304985" duration="19921000" />
+      <workItem from="1763907793185" duration="5401000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/manel/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/department-microservice/src/main/java/com/manel/departmentmicroservice/service/InstitutServiceImpl.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

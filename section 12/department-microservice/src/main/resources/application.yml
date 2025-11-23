@@ -1,0 +1,60 @@
+server:
+  port: 8083
+
+spring:
+  #rabbitmq:
+  #  host: "localhost"
+   # port: 5672
+    #username: "guest"
+    #password: "guest"
+  profiles:
+    active: "docker" # Add docker profile for container environment
+  config:
+    import: optional:configserver:${CONFIG_SERVICE_URL:http://localhost:9999}
+  application:
+    name: institut-ms
+
+  datasource:
+    url: 'jdbc:h2:mem:depdb;DB_CLOSE_ON_EXIT=FALSE'
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect  # CRITICAL: Add this line
+
+  cloud:
+    config:
+      enabled: true
+    discovery:
+      enabled: true
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: ${DISCOVERY_SERVICE_URL:http://localhost:8761/eureka}
+  instance:
+    prefer-ip-address: true
+    hostname: localhost
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+build:
+  version: 1.0
+
+author:
+  name: "manel boulares"
+  email: "manelboulares@gmail.com"
+
