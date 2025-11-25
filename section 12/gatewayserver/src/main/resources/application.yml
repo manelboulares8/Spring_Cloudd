@@ -6,7 +6,7 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          jwk-set-uri: "http://localhost:8090/realms/master/protocol/openid-connect/certs"
+          jwk-set-uri: "http://keycloak:8080/realms/master/protocol/openid-connect/certs"
   application:
     name: gatewayserver
 
@@ -14,9 +14,15 @@ spring:
     config:
       enabled: false     # No config server
     discovery:
-      enabled: true      # Enable Eureka discovery
-
+      enabled: true
     gateway:
+      discovery:
+        locator:
+          enabled: false
+          lowerCaseServiceId: true
+
+
+    #gateway:
 #      routes:
 #        - id: institut-ms
 #          uri: lb://institut
@@ -38,7 +44,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: ${DISCOVERY_SERVICE_URL:http://localhost:8761/eureka}
+      defaultZone: ${DISCOVERY_SERVICE_URL:http://eurekaserver:8761/eureka}
   instance:
     prefer-ip-address: true    # Set to false for Docker
 
@@ -49,7 +55,7 @@ management:
         include: '*'     # Expose actuator endpoints
   endpoint:
     gateway:
-      enabled: true
+      access : unrestricted
 
 
 resilience4j.circuitbreaker:

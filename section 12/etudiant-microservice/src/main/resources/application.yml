@@ -2,16 +2,16 @@ server:
   port: 8087
 spring:
   profiles:
-    active: "docker" # Add docker profile for container environment
+    active: "default" # Add docker profile for container environment
   config:
     import: optional:configserver:${CONFIG_SERVICE_URL:http://localhost:9999}
- # rabbitmq:
-  #  host: "localhost"
-   # port: 5672
-   # username: "guest"
-   # password: "guest"
+    # rabbitmq:
+    #  host: "localhost"
+    # port: 5672
+    # username: "guest"
+    # password: "guest"
   application:
-    name: etudiants-ms
+    name: etudiants
   datasource:
     url: 'jdbc:h2:mem:etudiantdb'
   h2:
@@ -24,7 +24,7 @@ spring:
   cloud:
     openfeign:
       circuitbreaker:
-          enabled: true
+        enabled: true
     config:
       enabled: true
     discovery:

@@ -18,14 +18,14 @@ public class GatewayserverApplication {
         return routeLocatorBuilder.routes()
                 .route(p -> p
                         .path("/api/ins/**")
-                        .uri("lb://INSTITUT-MS"))
+                        .uri("lb://INSTITUT"))
                 .route(p -> p
                         .path("/api/etudiants/**")
                         .filters( f -> f.circuitBreaker(config ->
                                 config.setName("etudiantCircuitBreaker")
                                         .setFallbackUri("forward:/contactAdmin")))
 
-                        .uri("lb://ETUDIANTS-MS"))
+                        .uri("lb://ETUDIANTS"))
                 .build();
     }
 }

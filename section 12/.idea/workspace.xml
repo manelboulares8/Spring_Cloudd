@@ -168,7 +168,7 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EtudiantMicroserviceApplication">
+  <component name="RunManager" selected="Spring Boot.EurekaserverApplication">
     <configuration name="All in department-microservice" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="department-microservice" />
       <option name="PACKAGE_NAME" value="" />
@@ -279,7 +279,15 @@
       <workItem from="1763818341546" duration="5000" />
       <workItem from="1763838745311" duration="6672000" />
       <workItem from="1763886304985" duration="19921000" />
-      <workItem from="1763907793185" duration="5401000" />
+      <workItem from="1763907793185" duration="8053000" />
+      <workItem from="1763970748110" duration="1696000" />
+      <workItem from="1763975040407" duration="361000" />
+      <workItem from="1763982754692" duration="4000" />
+      <workItem from="1763988338572" duration="4000" />
+      <workItem from="1763993927871" duration="2000" />
+      <workItem from="1764069358883" duration="5972000" />
+      <workItem from="1764076301744" duration="1921000" />
+      <workItem from="1764086383078" duration="8324000" />
     </task>
     <servers />
   </component>

@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 //@FeignClient(url = "http://localhost:8083", value = "INSTITUT")
 //@FeignClient(value = "INSTITUT",fallback = DeptFallBack.class)
-@FeignClient(name = "INSTITUT-MS")
+@FeignClient(name = "INSTITUT")
 public interface APIClient {
     @GetMapping("api/ins/by-nom/{nomInstitut}")
     InstitutDto getInsByNom(@PathVariable String nomInstitut);
